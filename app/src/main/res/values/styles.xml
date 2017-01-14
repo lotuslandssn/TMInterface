@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="common_wm_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="common_ww_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="CustomTheme" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--编辑框-->
+    <style name="clearEditText_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/dip_45</item>
+        <item name="android:layout_marginLeft">@dimen/dip_15</item>
+        <item name="android:layout_marginRight">@dimen/dip_15</item>
+        <item name="android:textColor">@color/common_black_text_color</item>
+        <item name="android:textColorHint">@color/lightGrey</item>
+        <item name="android:textSize">@dimen/txt_size_18</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!-- 共用登录注册Button样式 -->
+    <style name="common_theme_btn_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/dip_25</item>
+        <item name="android:layout_marginRight">@dimen/dip_25</item>
+        <item name="android:background">@drawable/selector_common_theme_round_corner_btn</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/txt_size_18</item>
+    </style>
+
+    <!-- 基本公用样式 -->
+    <!-- mm -->
+    <style name="common_mm_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+</resources>

@@ -1,0 +1,168 @@
+a{ color: #fff; text-underline: none;}
+a:active{ color: #accbde;}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { 
+color: #c6dae6; 
+} 
+input:-moz-placeholder, textarea:-moz-placeholder { 
+color: #c6dae6; 
+} 
+input::-moz-placeholder, textarea::-moz-placeholder { 
+color: #c6dae6; 
+} 
+input:-ms-input-placeholder, textarea:-ms-input-placeholder { 
+color: #c6dae6; 
+} 
+.fz12{ font-size: 12px;}
+.fz14{ font-size: 14px;}
+.fz16{ font-size: 16px;}
+.fz18{ font-size: 18px;}
+.fz20{ font-size: 20px;}
+.fz22{ font-size: 22px;}
+.mt20{ margin-top: 20px;}
+.mt50{ margin-top: 50px;}
+.pad10{ padding: 10px 0;}
+.clear{ clear: both;}
+
+.bg{ position:fixed; top:0; left:0; bottom:0; right:0; z-index:-1; } 
+.bg > img { height:100%; width:100%; border:0; } 
+
+/*重置mui样式*/
+.mui-bar{ background-color:#1a4d71;}
+.mui-content,.mui-table-view,.mui-card,.mui-table-view-cell.mui-active,.mui-table-view-cell>a:not(.mui-btn).mui-active,.mui-table-view-cell.mui-collapse .mui-collapse-content{ background-color:transparent; box-shadow:none;}
+.mui-bar-nav{ box-shadow:none;}
+.mui-card{ margin: 0;}
+.mui-title{ color: #fff; font-size: 20px;}
+.mui-bar .mui-btn{ top: 5px;}
+.mui-off-canvas-left, .mui-off-canvas-right, .mui-table-view-inverted{background:#ededed; color: #000;}
+.mui-table-view-inverted:after, .mui-table-view-inverted .mui-table-view-cell:after{background-color: #cacaca;}
+.mui-table-view .iconfont{ font-size: 18px; padding-right: 6px;}
+.mui-table-view-inverted .mui-table-view-cell.mui-active,.mui-table-view-inverted .mui-table-view-cell>a:not(.mui-btn).mui-active{background-color:#cacaca}
+.mui-table-view-cell:after{ left: 0;}
+.mui-table-view-chevron .mui-table-view-cell{ padding: 14px 65px 14px 15px;}
+.mui-bar-tab{ background-color: #e7e7e7;}
+.mui-bar-tab .iconfont{ display: inline-block; padding: 5px 0 0;}
+.mui-bar-tab p{ margin: 0; font-size: 13px;}
+.mui-bar-tab .mui-tab-item.mui-active p{ color: #007aff;}
+.mui-btn-block{ padding: 10px 0;}
+
+.my_btn{color:#fff; background-color: #163e5b;border-width: 0;}
+
+.s_table{ width: 100%; color: #fff;border-top: 1px solid #accbde;}
+.s_table td, .s_table th{ border-bottom: 1px solid #accbde;border-right: 1px solid #accbde;padding: 6px 0; text-align: center; line-height: 180%;}
+td.txt_l{ text-align: left; text-indent: 10px;}
+.table_list{ text-align: left; text-indent: 10px; font-size: 14px;}
+.table_list span{ background:url(../images/i01.png) no-repeat; width: 14px; height: 18px; display: block; float: left; margin-left: 10px;}
+
+.s_row{ width: 100%; height: 60px; border-bottom: 1px solid #accbde;}
+.s_row label{ width: 16%; height: 60px; line-height: 60px; float: left; text-align: center; color: #c6dae6;}
+input.txt_1{ width: 84%; height: 60px; border: 0; background-color: transparent; color: #fff; padding: 0;}
+
+.city_1{ width: 100%; margin-top: 20px; color: #fff;}
+.city_1a{ width: 100%; border-bottom: 1px solid #79a0b9; padding: 6px 0;}
+.city_1a .iconfont{ color: #c6dae6; font-size: 17px; padding:0 6px 0 12px;}
+.city_1a em{ float: right; font-style: normal; font-size: 14px; width: 46px;}
+.city_1b{ width: 100%; margin-top: 10px;}
+.city_1b .city_1b_1{ width: 26%; float: left;}
+.city_1b .city_1b_1 span{ padding-left: 12px; font-size: 42px; line-height: 60px;}
+.city_1b .city_1b_2{ width: 70%; float: left;}
+.city_1b .city_1b_2 p{ color: #fff; margin: 0; margin-top: 5px; font-size: 14px;}
+.city_1b .city_1b_2 p span{ background-color: #3fbd59; border-radius: 3px; display: block; width: 60px; text-align: center;}
+.city_1c{ width: 100%; color: #79a0b9; font-size: 14px;}
+.city_1c span{ width: 20%; float: left; margin-left: 4%;}
+.city_1c em{ float: right;font-style: normal; width: 46px;}
+
+.city_tit{ width: 100%; border-bottom: 1px solid #77a1b9; height: 30px; line-height: 30px; margin-top: 20px;}
+.city_tit span{ float: left; font-size: 13px; color: #accbde; text-indent: 10px;}
+.city_tit a{ float: right; font-size: 13px; margin-right: 10px; line-height: 16px;}
+.city_tit em{ font-style: normal; float: right; font-size: 13px; margin-right: 10px; color: #accbde;}
+
+.city_2{ width: 100%; margin-top: 10px;}
+.city_2 .city_2a{ width: 44%; float: left; margin-left: 3%; border-bottom: 2px solid #33cc66;}
+.city_2 .city_2b{ width: 44%; float: right; margin-right: 3%; border-bottom: 2px solid #33cc66;}
+.city_2 p{ color: #accbde; margin: 5px 0;}
+.city_2 p strong{ color: #fff; font-size: 18px; padding-right: 6px;}
+
+.mui-segmented-control{border:1px solid #fff;}
+.mui-segmented-control .mui-control-item.mui-active{color:#396179;background-color:#fff;}
+.mui-segmented-control .mui-control-item{ color: #fff;border-left:1px solid #fff;}
+.mui-card .mui-table-view-cell{ color: #fff;}
+.mui-card .mui-table-view-cell a span{ float: right; padding: 5px 8px; border-radius: 4px; background-color: #3fbd59;}
+.mui-card .mui-table-view-cell a em{ font-style: normal; color: #accbde; font-size: 18px; padding-right: 15px;}
+.mui-card .mui-table-view-cell a i{ font-style: normal; font-size: 12px; padding-left: 10px;}
+
+.mui-card .mui-table-view-cell.mui-collapse .mui-collapse-content{ width: 100%; margin: 0 auto;}
+.mui-card .mui-collapse-content p{ font-size: 13px; width: 100%; margin-top: 10px; color: #fff;}
+.mui-card .mui-collapse-content p span{ font-size: 12px; float: right; padding: 2px 5px; border-radius: 3px; background-color: #3fbd59;}
+.charts{ width: 100%; height: 200px;}
+
+.city_4{ width: 100%; font-size: 13px;}
+.city_4 .city_4a{ float: left; line-height: 30px; color: #accbde;}
+.city_4 .city_4a span{ color: #fff;}
+.city_4 .city_4b{ float: right;}
+.city_4 .city_4b a{ font-size: 13px;}
+
+.city_map{ width: 100%;}
+
+.foot_nav{ width: 100%; position: absolute; bottom: 56px; background-color: #1d4f73; z-index: 4;}
+.foot_nav1{ width: 40%; float: left; margin-left: 2%;}
+.foot_nav2{ width: 30%; float: left; margin-left: 2%;}
+.foot_nav3{ width: 22%; float: left; margin-left: 2%;}
+.foot_nav4{ width: 72%; float: left; margin-left: 2%;}
+.foot_nav a{ width: 50%; height: 32px; line-height: 30px; display: block; float: left; font-size: 12px; cursor: pointer; text-align: center;}
+.foot_nav .a_left{ border:1px solid #fff; border-radius: 3px 0 0 3px;}
+.foot_nav .a_right{ border:1px solid #fff; border-radius: 0 3px 3px 0;}
+.foot_nav .cur{background-color: #fff; color: #396179;}
+
+.tab_tit{ width: 100%;}
+.tab_tit .mui-control-item{}
+.tab_tit .mui-active{ border-bottom: 2px solid #3c6;}
+
+
+.hy_top{ width: 100%; height: 40px; color: #fff;}
+.hy_top .hy_tit{ width: 84%; float: left;}
+.hy_top .hy_tit strong{ padding: 0 10px; display:inline-block; height: 38px; line-height: 38px; border-bottom: 2px solid #3c6;}
+.hy_top .hy_more{ width: 11%; float: right;}
+.hy_top .hy_more span{ padding: 0 10px; display:inline-block; height: 38px; line-height: 38px;}
+.mui-control-content{ display: block;}
+
+.search_1{ width: 96%; margin: 0 auto;}
+.search_1 span{ width: 10%; height: 36px; display: block; float: left; background-color: #fff; border-radius: 4px 0 0 4px; line-height: 36px; font-size: 18px; color: #999; text-align: center; padding: 0;}
+.search_1 .txt_2{ width: 70%; height: 36px; float: left; background-color: #fff; border-width: 0; border-radius:0; font-size: 14px; padding: 0;}
+.search_1 .btn_1{ width: 20%; height: 36px; float: left; border-radius:0 4px 4px 0;}
+input.txt_2::-webkit-input-placeholder{ 
+color: #888; 
+} 
+input.txt_2:-moz-placeholder{ 
+color: #888; 
+} 
+input.txt_2::-moz-placeholder{ 
+color: #888; 
+} 
+input.txt_2:-ms-input-placeholder{ 
+color: #888; 
+}
+.search_2{ width: 100%; font-size: 13px; color: #ACCBDE;}
+
+.daf_1{ width: 100%; padding: 8px 0; font-size: 13px; color: #fff;}
+.daf_1 table{ width: 100%;}
+.daf_2{ width: 100%; height: 30px; margin-top:10px; font-size: 12px; color: #ACCBDE;}
+.daf_2 span{ display: inline-block; float: left;}
+.daf_2 span.daf_2a{ width: 50%; text-indent: 15px;}
+.daf_2 span.daf_2b{ width: 20%; text-align: center;}
+.daf_2 span.daf_2c{ width: 30%; text-align: center;}
+
+.daf_3a{ width: 50%; float: left;}
+.daf_3b{ width: 20%; float: left; text-align: center;}
+.daf_3c{ width: 26%; float: right; text-align: center;}
+input.txt_3{ width: 90%; height: 30px; line-height: 30px; padding: 0; margin: 0;}
+
+.daf_4{ width: 100%; height: 30px; font-size: 12px; color: #ACCBDE;}
+
+.daf_btn{ background-color: transparent;}
+.daf_btn .mui-btn{ width: 90%; margin: 0 auto; padding: 8px 0;}
+
+.table_96{ width: 96%; margin: 0 auto; font-size: 14px; color: #fff;}
+.table_96 td{ padding: 5px 0;}
+.table_96 th{ font-size: 13px; color: #ACCBDE; font-weight: normal; text-align: left; border-bottom: 1px solid #77A1B9;}
+
+

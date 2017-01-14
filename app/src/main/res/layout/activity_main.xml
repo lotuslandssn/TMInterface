@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/action_bar_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/common_mm_style"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dip_130"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dip_30"
+            android:drawablePadding="@dimen/dip_8"
+            android:drawableTop="@mipmap/login_icon"
+            android:gravity="center_horizontal"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_20" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dip_15"
+            android:text="@string/ipport"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/txt_size_12"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dip_8"
+            android:orientation="horizontal">
+
+            <com.tiamaes.theplatform.view.ClearEditText
+                android:id="@+id/login_url"
+                style="@style/clearEditText_style"
+                android:layout_marginTop="@dimen/dip_8"
+                android:layout_weight="3"
+                android:hint="ip地址" />
+
+            <com.tiamaes.theplatform.view.ClearEditText
+                android:id="@+id/login_port"
+                style="@style/clearEditText_style"
+                android:layout_marginTop="@dimen/dip_8"
+                android:layout_weight="1"
+                android:hint="端口号" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/login_btn"
+            style="@style/common_theme_btn_style"
+            android:layout_marginTop="@dimen/dip_15"
+            android:background="@drawable/login_theme_round_corner_btn"
+            android:text="@string/login" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dip_8"
+        android:gravity="center_horizontal"
+        android:text="@string/foot"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_16" />
+</RelativeLayout>

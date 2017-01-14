@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">部平台</string>
+    <string name="login">进入</string>
+    <string name="foot">天迈科技</string>
+    <string name="ipport">格式如下:192.168.1.102:8012</string>
+</resources>

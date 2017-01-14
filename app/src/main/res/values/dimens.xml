@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 字体 -->
+    <dimen name="txt_size_12">12sp</dimen>
+    <dimen name="txt_size_13">13sp</dimen>
+    <dimen name="txt_size_14">14sp</dimen>
+    <dimen name="txt_size_15">15sp</dimen>
+    <dimen name="txt_size_16">16sp</dimen>
+    <dimen name="txt_size_17">17sp</dimen>
+    <dimen name="txt_size_18">18sp</dimen>
+    <dimen name="txt_size_19">19sp</dimen>
+    <dimen name="txt_size_20">20sp</dimen>
+    <!-- 公用大小 -->
+    <dimen name="dip_0">0dip</dimen>
+    <dimen name="dip_0.1">0.1dip</dimen>
+    <dimen name="dip_0.5">0.5dip</dimen>
+    <dimen name="dip_1">1dip</dimen>
+    <dimen name="dip_3">3dip</dimen>
+    <dimen name="dip_6">6dip</dimen>
+    <dimen name="dip_7">7dip</dimen>
+    <dimen name="dip_8">8dip</dimen>
+    <dimen name="dip_10">10dip</dimen>
+    <dimen name="dip_12">12dip</dimen>
+    <dimen name="dip_13">13dip</dimen>
+    <dimen name="dip_15">15dip</dimen>
+    <dimen name="dip_20">20dip</dimen>
+    <dimen name="dip_25">25dip</dimen>
+    <dimen name="dip_30">30dip</dimen>
+    <dimen name="dip_35">35dip</dimen>
+    <dimen name="dip_40">40dip</dimen>
+    <dimen name="dip_45">45dip</dimen>
+    <dimen name="dip_50">50dip</dimen>
+    <dimen name="dip_55">55dip</dimen>
+    <dimen name="dip_60">60dip</dimen>
+    <dimen name="dip_65">65dip</dimen>
+    <dimen name="dip_70">70dip</dimen>
+    <dimen name="dip_80">80dip</dimen>
+    <dimen name="dip_90">90dip</dimen>
+    <dimen name="dip_130">130dip</dimen>
+    <dimen name="dip_200">200dip</dimen>
+
+</resources>

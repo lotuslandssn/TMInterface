@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="action_bar_bg">#04a7dd</color>
+    <color name="action_bar_bg_deep">#07a6db</color>
+    <item name="gray_holo_dark" type="color">#ff464646</item>
+    <item name="gray_holo_light" type="color">#ffd0d0d0</item>
+    <!-- 基色 -->
+    <color name="white">#ffffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="green">#ff00ff00</color>
+    <color name="gray">#808080</color><!--灰 -->
+    <color name="whitesmoke">#F5F5F5</color><!-- 白烟 -->
+    <color name="lightGrey">#D3D3D3</color><!-- 浅灰色 -->
+    <color name="transparency">#00000000</color>
+
+    <color name="text_color_default">#4c4c4c</color><!--basedialog对话框-->
+    <color name="common_black_text_color">#4f4f4f</color><!--字体颜色-->
+    <color name="common_background_color">#F0F0F0</color>
+    <color name="listitem_nor">#ffffff</color>
+    <color name="listitem_press">#dddce2</color>
+    <color name="background_dark">#ffd4ccc0</color>
+
+    <!--主页item-->
+    <!--公交监管-->
+    <color name="main_item_bg_bus_regulation_normal">#3c8dbc</color>
+    <color name="main_item_bg_bus_regulation_pressed">#357da6</color>
+    <color name="bus_regulation_top_nav_bg">#f1f0f0</color>
+    <color name="bus_regulation_top_nav_txt">#ff8400</color>
+    <!--两客一危-->
+    <color name="main_item_bg_two_guest_dangerous_normal">#f39c12</color>
+    <color name="main_item_bg_two_guest_dangerous_pressed">#e39211</color>
+    <!--网约出租车-->
+    <color name="main_item_bg_net_taxi_normal">#007d00</color>
+    <color name="main_item_bg_net_taxi_pressed">#016e01</color>
+    <!--轨道交通-->
+    <color name="main_item_bg_rail_transit_normal">#008c8c</color>
+    <color name="main_item_bg_rail_transit_pressed">#007a7a</color>
+
+    <!--用户设置-->
+    <color name="list_item_background_normal">@color/white</color>
+    <color name="list_item_background_pressed">#efefef</color>
+
+</resources>
